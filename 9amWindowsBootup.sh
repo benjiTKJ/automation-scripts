@@ -15,7 +15,7 @@ chromeTabs(){
 applications(){
     echo "############### Starting up required Applications ###############"
     echo "Opening git"
-    start "C:\Program Files\Git\bin\bash.exe"
+    start bash
     echo "Opening VS Code"
     code ..
 
@@ -25,6 +25,6 @@ confirmation(){
     powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Windows Bootup task completed', 'Success','OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
 }
 
-#chromeTabs
+chromeTabs
 applications
 confirmation
