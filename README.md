@@ -5,10 +5,10 @@ Scripts/tools to help automate daily tasks
 ## Table of contents
 
 - [Purpose](#purpose)
-- [Rules]
+- [Rules](#rules)
 - [Potential plans](#potential-plans)
 - [Problem statement](#problem-statements)
-- [Solutions]
+- [Solutions](#solutions)
 
 ## Purpose
 
